@@ -1,0 +1,29 @@
+{
+  "name": "cl-challenge",
+  "version": "1.0.0",
+  "description": "CL Challenge",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saade155/CL-Challenge.git"
+  },
+  "author": "saade155",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saade155/CL-Challenge/issues"
+  },
+  "homepage": "https://github.com/saade155/CL-Challenge#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "q": "^1.5.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.1"
+  }
+}
